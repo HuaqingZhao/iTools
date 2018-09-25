@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <groups>
+    <group name="Visual Studio" index="0" title="Visual Studio">
+      <item name="DRPCore" value="D:\home\ZhaoHuaqing\DR\DRPCore.sln" />
+      <item name="DRP" value="D:\home\ZhaoHuaqing\DR\DRP.sln" />
+      <item name="DIWCCore" value="D:\home\ZhaoHuaqing\DR\DIWCCore.sln" />
+      <item name="DIWC" value="D:\home\ZhaoHuaqing\DR\DIWC.sln" />
+      <item name="Sundance" value="D:\home\ZhaoHuaqing\DRX-1\CaptureConsoleSundance_VS2010.sln" />
+      <item name="CaptureConsole" value="D:\home\ZhaoHuaqing\CCPlatform\CaptureConsole.sln" />
+      <item name="iTools" value="E:\Projects\iTools\iTools.sln" />
+    </group>
+		<group name="EKTools" index="1" title="EK Tools">
+			<item name="CCApplicationCoordinator" value="&quot;C:\Program Files\Kodak\CaptureConsole\bin\EK.Capture.CCApplicationCoordinator.exe&quot;" />
+			<item name="CCConfigEdit" value="&quot;C:\Program Files\Kodak\CaptureConsole\Bin\EK.Capture.Tools.CCConfigEdit.exe&quot;" />
+			<item name="TraceViewer" value="&quot;C:\Program Files\Kodak\CaptureConsole\Bin\EK.Capture.Tools.TraceViewer.exe&quot;" />
+			<item name="DRXSimulator" value="&quot;C:\Program Files\Kodak\CaptureConsole\Bin\DRXSimulator.exe&quot;" />
+		</group>
+		<group name="Tools" index="2" title="Tools">
+			<item name="GitExtensions" value="&quot;C:\Program Files (x86)\GitExtensions\GitExtensions.exe&quot;" />
+			<item name="services.msc" value="%windir%\system32\services.msc" />
+			<item name="Everything" value="&quot;C:\Program Files (x86)\Everything\Everything.exe&quot;" />
+			<item name="notepad++" value="C:\Users\19010380\Downloads\npp.6.3.bin\unicode\notepad++.exe" />
+			<item name="Notepad" value="%windir%\system32\notepad.exe" />
+			<item name="kdiff3" value="&quot;C:\Program Files (x86)\KDiff3\kdiff3.exe&quot;" />
+		</group>
+  </groups>
+</root>

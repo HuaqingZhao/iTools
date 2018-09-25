@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{936F7465-2D14-43B0-BF6B-037026BD2314}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ConsoleApplication2</RootNamespace>
+    <AssemblyName>ConsoleApplication2</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>C:\Program Files\Kodak\CaptureConsole\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>CommonPublicKey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.Core">
+      <HintPath>C:\Program Files\Kodak\CaptureConsole\Bin\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Facilities.EventWiring">
+      <HintPath>..\..\CastleWindsor\CastleWindsor\CastleWindsor\Castle\Castle.Facilities.EventWiring.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Facilities.FactorySupport">
+      <HintPath>..\..\CastleWindsor\CastleWindsor\CastleWindsor\Castle\Castle.Facilities.FactorySupport.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Facilities.Logging">
+      <HintPath>..\..\CastleWindsor\CastleWindsor\CastleWindsor\Castle\Castle.Facilities.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Facilities.Remoting">
+      <HintPath>..\..\CastleWindsor\CastleWindsor\CastleWindsor\Castle\Castle.Facilities.Remoting.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Facilities.Synchronize">
+      <HintPath>..\..\CastleWindsor\CastleWindsor\CastleWindsor\Castle\Castle.Facilities.Synchronize.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Facilities.WcfIntegration">
+      <HintPath>..\..\CastleWindsor\CastleWindsor\CastleWindsor\Castle\Castle.Facilities.WcfIntegration.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Services.Logging.Log4netIntegration">
+      <HintPath>..\..\CastleWindsor\CastleWindsor\CastleWindsor\Castle\Castle.Services.Logging.Log4netIntegration.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Services.Logging.NLogIntegration">
+      <HintPath>..\..\CastleWindsor\CastleWindsor\CastleWindsor\Castle\Castle.Services.Logging.NLogIntegration.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Windsor">
+      <HintPath>..\..\CastleWindsor\CastleWindsor\CastleWindsor\Castle\Castle.Windsor.dll</HintPath>
+    </Reference>
+    <Reference Include="EK.Capture.Business.Core">
+      <HintPath>C:\Program Files\Kodak\CaptureConsole\Bin\EK.Capture.Business.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EK.Capture.Common.CCSchema, Version=6.0.27.0, Culture=neutral, PublicKeyToken=ddf0b8c12962ac51, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Kodak\CaptureConsole\Bin\EK.Capture.Common.CCSchema.dll</HintPath>
+    </Reference>
+    <Reference Include="EK.Capture.Common.CCUtilities.Core, Version=6.0.27.0, Culture=neutral, PublicKeyToken=ddf0b8c12962ac51, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Kodak\CaptureConsole\Bin\EK.Capture.Common.CCUtilities.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EK.Capture.Common.Core, Version=6.0.27.0, Culture=neutral, PublicKeyToken=ddf0b8c12962ac51, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Kodak\CaptureConsole\Bin\EK.Capture.Common.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EK.Capture.Devices.Common.Core">
+      <HintPath>C:\Program Files\Kodak\CaptureConsole\Bin\EK.Capture.Devices.Common.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EK.Capture.Devices.Detector.CarestreamHealth.CarestreamPro.Core">
+      <HintPath>C:\Program Files\Kodak\CaptureConsole\Bin\EK.Capture.Devices.Detector.CarestreamHealth.CarestreamPro.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EK.Capture.Devices.Detector.CarestreamHealth.DRX1.Core">
+      <HintPath>C:\Program Files\Kodak\CaptureConsole\Bin\EK.Capture.Devices.Detector.CarestreamHealth.DRX1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EK.Capture.Devices.Detector.Common.BeamSense.Core">
+      <HintPath>C:\Program Files\Kodak\CaptureConsole\Bin\EK.Capture.Devices.Detector.Common.BeamSense.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EK.Capture.Devices.Detector.Common.Core">
+      <HintPath>C:\Program Files\Kodak\CaptureConsole\Bin\EK.Capture.Devices.Detector.Common.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EK.Capture.Devices.Detector.Varian.PaxScan4343R.Core">
+      <HintPath>C:\Program Files\Kodak\CaptureConsole\Bin\EK.Capture.Devices.Detector.Varian.PaxScan4343R.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EK.Capture.Devices.PrepExposeSwitch.CarestreamHealth.ExposureSwitchBox.Core">
+      <HintPath>C:\Program Files\Kodak\CaptureConsole\Bin\EK.Capture.Devices.PrepExposeSwitch.CarestreamHealth.ExposureSwitchBox.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EK.Capture.Devices.WirelessAccessPoint.Common.Core">
+      <HintPath>C:\Program Files\Kodak\CaptureConsole\Bin\EK.Capture.Devices.WirelessAccessPoint.Common.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EK.Capture.Devices.WirelessAccessPoint.DLink.AirPremier2553.Core">
+      <HintPath>C:\Program Files\Kodak\CaptureConsole\Bin\EK.Capture.Devices.WirelessAccessPoint.DLink.AirPremier2553.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EK.Capture.Devices.WirelessAccessPoint.Sony.UWABR100.Core">
+      <HintPath>C:\Program Files\Kodak\CaptureConsole\Bin\EK.Capture.Devices.WirelessAccessPoint.Sony.UWABR100.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EK.Capture.DR.Common.Core, Version=5.7.12000.0, Culture=neutral, PublicKeyToken=ddf0b8c12962ac51, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Kodak\CaptureConsole\Bin\EK.Capture.DR.Common.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EK.Capture.DR.Devices.Core, Version=5.7.12000.0, Culture=neutral, PublicKeyToken=ddf0b8c12962ac51, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Kodak\CaptureConsole\Bin\EK.Capture.DR.Devices.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EK.Capture.DR.Services.CCImageProcess.Core">
+      <HintPath>C:\Program Files\Kodak\CaptureConsole\Bin\EK.Capture.DR.Services.CCImageProcess.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EK.Capture.Foundation.CCDfmDRAnalysis, Version=1.0.14.0, Culture=neutral, PublicKeyToken=ddf0b8c12962ac51, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Kodak\CaptureConsole\Bin\EK.Capture.Foundation.CCDfmDRAnalysis.dll</HintPath>
+    </Reference>
+    <Reference Include="EK.Capture.Services.CCOptionActivationHelper.Core">
+      <HintPath>C:\Program Files\Kodak\CaptureConsole\Bin\EK.Capture.Services.CCOptionActivationHelper.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EK.Capture.Services.Common.Core">
+      <HintPath>C:\Program Files\Kodak\CaptureConsole\Bin\EK.Capture.Services.Common.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EK.Capture.Services.DicomDelivery.Core">
+      <HintPath>C:\Program Files\Kodak\CaptureConsole\Bin\EK.Capture.Services.DicomDelivery.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="CommonPublicKey.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

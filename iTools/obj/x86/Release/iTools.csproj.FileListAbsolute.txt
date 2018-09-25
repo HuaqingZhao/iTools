@@ -1,0 +1,12 @@
+D:\Projects\Studio\iTools\iTools\bin\Release\iToolsConfiguration.xml
+D:\Projects\Studio\iTools\iTools\bin\Release\iTools.exe
+D:\Projects\Studio\iTools\iTools\bin\Release\iTools.pdb
+D:\Projects\Studio\iTools\iTools\obj\x86\Release\iTools.csprojResolveAssemblyReference.cache
+D:\Projects\Studio\iTools\iTools\obj\x86\Release\iTools.Groups.resources
+D:\Projects\Studio\iTools\iTools\obj\x86\Release\iTools.ItemsEditUserControl.resources
+D:\Projects\Studio\iTools\iTools\obj\x86\Release\iTools.MainForm.resources
+D:\Projects\Studio\iTools\iTools\obj\x86\Release\iTools.Properties.Resources.resources
+D:\Projects\Studio\iTools\iTools\obj\x86\Release\iTools.UtilitiesUserControl.resources
+D:\Projects\Studio\iTools\iTools\obj\x86\Release\iTools.csproj.GenerateResource.Cache
+D:\Projects\Studio\iTools\iTools\obj\x86\Release\iTools.exe
+D:\Projects\Studio\iTools\iTools\obj\x86\Release\iTools.pdb
